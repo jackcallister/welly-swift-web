@@ -2,7 +2,7 @@ header {
 	background: #404344;
 	width: 100%;
 	position: relative;
-	min-height: 700px;
+	min-height: 780px;
 
 		h1, h2 {
 			color: white;
@@ -35,13 +35,6 @@ header {
 		}
 		button:hover {
 			opacity: 0.8;
-		}
-		.logo {
-			background: url(../imgs/logo.png);
-			width: 128px; height: 17px;
-			position: absolute;
-			left: 40px;
-			top: 48px;
 		}
 		/* CSS for high-resolution devices */
 		@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -133,7 +126,7 @@ header {
 
 @media screen and (max-width:500px) {
 	header {
-		min-height: 500px !important;
-		max-height: 500px;
+		min-height: 550px !important;
+		max-height: 550px;
 	}
 }

@@ -20,10 +20,23 @@
     src: url("../fonts/gotham/GothamSSm-Light-.eot#iefix") format("embedded-opentype"), url("../fonts/gotham/GothamSSm-Light.woff") format("woff"), url("../fonts/gotham/GothamSSm-Light.ttf") format("truetype");
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, li {
     font-family: $gotham;
 }
 
+ul li {
+    color: $text
+}
+
+.main-list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin-bottom: 2em;
+    li {
+        list-style: disc !important;
+    }
+}
     #fadein {
         opacity: 0;
     }
