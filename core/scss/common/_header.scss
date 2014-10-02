@@ -1,8 +1,8 @@
 header {
-	background: #404344;
+	background: #282828;
 	width: 100%;
 	position: relative;
-	min-height: 780px;
+	min-height: 800px;
 
 		h1, h2 {
 			color: white;
@@ -30,7 +30,6 @@ header {
 			color: white;
 			padding: 16px 24px;
 			font-size: 16px;
-			border-radius: 3px;
 			font-family: $gotham;
 		}
 		button:hover {

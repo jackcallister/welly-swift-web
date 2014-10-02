@@ -57,10 +57,8 @@
 			height: 50px;
 			padding: 0px 12px;
 			color: $text;
-			width: 75%;
-			display: inline;
-			float: left;
 			outline: none;
+			width: 100%;
 
 			  -webkit-transition: all 0.20s ease-in-out;
 			  -moz-transition: all 0.20s ease-in-out;
@@ -73,19 +71,19 @@
   		}
 		input[type=submit]{
 			cursor: pointer;
-			border: 1px solid $brand;
 			background: $brand;
-			font-family: $gotham;
-			font-size: 12px;
+			font-size: 14px;
 			font-weight: 200;
 			height: 50px;
 			color: white;
+			width: 100%;
 			text-align: center;
-			width: 25%;
-			display: inline;
-			float: right;
-
+			margin-top: 20px;
+			padding: 16px 24px;
+			font-size: 16px;
+			font-family: $gotham;
 			margin-bottom: 70px;
+			border: 0;
 		}
 		input[type=submit]:hover{
 			opacity: 0.8;
