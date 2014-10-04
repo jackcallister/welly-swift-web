@@ -2,17 +2,16 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/core\/scss\/base\/_mixins.scss" : {
+    "\/core\/imgs\/screen-1.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/scss\/base\/_mixins.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/core\/css\/_mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/core\/imgs\/screen-1.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/core\/imgs\/screen-1.png",
+      "initialSize" : 403735,
+      "fileType" : 8192
     },
     "\/core\/imgs\/logo@2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -37,26 +36,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/core\/imgs\/device.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/imgs\/device.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/core\/imgs\/device.png",
-      "initialSize" : 7275,
-      "fileType" : 8192
-    },
-    "\/core\/scss\/pages\/_signup.scss" : {
+    "\/core\/scss\/base\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/scss\/pages\/_signup.scss",
+      "inputAbbreviatedPath" : "\/core\/scss\/base\/_mixins.scss",
       "outputStyle" : 1,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/core\/css\/_signup.css",
+      "outputAbbreviatedPath" : "\/core\/css\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -68,6 +56,17 @@
       "inputAbbreviatedPath" : "\/core\/css\/style.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/core\/imgs\/bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/core\/imgs\/bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/core\/imgs\/bg.png",
+      "initialSize" : 793841,
+      "fileType" : 8192
     },
     "\/core\/scss\/common\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -93,15 +92,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/thank-you\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/thank-you\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/core\/imgs\/screen-4.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -124,16 +114,17 @@
       "outputAbbreviatedPath" : "\/core\/js\/jquery-ck.js",
       "fileType" : 64
     },
-    "\/favicon.png" : {
+    "\/core\/scss\/base\/_animate.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/favicon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/favicon.png",
-      "initialSize" : 1230,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/core\/scss\/base\/_animate.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/core\/css\/_animate.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/core\/scss\/base\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -158,40 +149,14 @@
       "initialSize" : 474266,
       "fileType" : 8192
     },
-    "\/core\/scss\/base\/_animate.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/scss\/base\/_animate.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/core\/css\/_animate.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/core\/scss\/pages\/_thanks.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/scss\/pages\/_thanks.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/core\/css\/_thanks.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/core\/imgs\/screen-2.png" : {
+    "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/imgs\/screen-2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/core\/imgs\/screen-2.png",
-      "initialSize" : 506545,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/core\/imgs\/device@2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -204,14 +169,16 @@
       "initialSize" : 22618,
       "fileType" : 8192
     },
-    "\/config.rb" : {
+    "\/core\/imgs\/screen-2.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/core\/imgs\/screen-2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/core\/imgs\/screen-2.png",
+      "initialSize" : 506545,
+      "fileType" : 8192
     },
     "\/core\/imgs\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -233,27 +200,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/core\/imgs\/screen-1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/imgs\/screen-1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/core\/imgs\/screen-1.png",
-      "initialSize" : 403735,
-      "fileType" : 8192
-    },
-    "\/core\/js\/jquery-ck.js" : {
+    "\/core\/scss\/common\/_menu.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/js\/jquery-ck.js",
+      "inputAbbreviatedPath" : "\/core\/scss\/common\/_menu.scss",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/core\/js\/jquery-ck-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/core\/css\/_menu.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/core\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -267,17 +224,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/core\/scss\/common\/_menu.scss" : {
+    "\/core\/js\/jquery-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/core\/scss\/common\/_menu.scss",
+      "inputAbbreviatedPath" : "\/core\/js\/jquery-ck.js",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/core\/css\/_menu.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/core\/js\/jquery-ck-ck.js",
+      "fileType" : 64
     },
     "\/core\/css\/grid.css" : {
       "ignoreWasSetByUser" : 0,
@@ -287,6 +243,17 @@
       "inputAbbreviatedPath" : "\/core\/css\/grid.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/core\/imgs\/device.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/core\/imgs\/device.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/core\/imgs\/device.png",
+      "initialSize" : 7275,
+      "fileType" : 8192
     },
     "\/core\/scss\/common\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -491,7 +458,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "Pennypot v1",
+    "displayValue" : "swift",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 1
   }

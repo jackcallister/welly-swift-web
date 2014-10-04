@@ -7,21 +7,30 @@
 		font-weight: 200;
 		color: $text;
 
-		margin-top: 100px; margin-bottom: 100px;
-	}
-	@media screen and (max-width:769px) {
-		h1 {
-			font-size: 30px;
-			margin-top: 100px;margin-bottom: 100px;
-		}
-	}
-	@media screen and (max-width:481px) {
-		h1 {
-			font-size: 22px;
-			margin-top: 80px;margin-bottom: 80px;
-		}
+		margin-top: 100px;
+		margin-bottom: 60px;
 	}
 
+	.two-col {
+		color: $text;
+		font-size: 18px;
+		-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin-bottom: 60px;
+    padding-left: 15%;
+	}
+
+	@media screen and (max-width:800px) {
+		h1 {
+			font-size: 30px !important;
+			margin-top: 100px;
+		}
+
+		.two-col {
+			padding-left: 0;
+		}
+	}
 }
 
 .coming-soon {
@@ -35,21 +44,25 @@
 		h1 {
 			font-size: 30px;
 			margin-top: 60px;
-			margin-bottom: 4px;
+			margin-bottom: 10px;
 		}
 		h2 {
-			font-size: 16px;
+			font-size: 18px;
+			line-height: 1.6;
 			margin-bottom: 40px;
 		}
+		strong {
+			font-weight: 700!important;
+		}
 		form {
-			max-width: 400px;
+			max-width: 300px;
 			margin-left: auto; margin-right: auto;
 		}
 		input {
    		 -webkit-appearance: none;
     		border-radius: 0;
 		}
-		input[type=email], input[type=text]{
+		input[type=email]{
 			border: 1px solid #CDCDCD;
 			font-family: $gotham;
 			font-size: 16px;
@@ -57,8 +70,8 @@
 			height: 50px;
 			padding: 0px 12px;
 			color: $text;
-			outline: none;
 			width: 100%;
+			outline: none;
 
 			  -webkit-transition: all 0.20s ease-in-out;
 			  -moz-transition: all 0.20s ease-in-out;
@@ -66,43 +79,41 @@
 			  -o-transition: all 0.20s ease-in-out;
 		}
 		input[type=email]:focus {
-			box-shadow: 0 0 5px rgba(106,104,173,0.5);
-  			border: 1px solid rgba(106,104,173,0.5);
+			box-shadow: 0 0 5px rgba(89,155,165,0.5);
+  			border: 1px solid rgba(89,155,165,0.5);
   		}
 		input[type=submit]{
 			cursor: pointer;
+			border: 1px solid $brand;
 			background: $brand;
+			font-family: $gotham;
 			font-size: 14px;
 			font-weight: 200;
 			height: 50px;
 			color: white;
-			width: 100%;
 			text-align: center;
-			margin-top: 20px;
-			padding: 16px 24px;
-			font-size: 16px;
-			font-family: $gotham;
+			width: 100%;
+
 			margin-bottom: 70px;
-			border: 0;
 		}
 		input[type=submit]:hover{
 			opacity: 0.8;
 		}
-		@media screen and (max-width:481px) {
+		@media screen and (max-width: 800px) {
 			h1 {
 				font-size: 24px;
-				margin-top: 30px;
+				margin-top: 40px;
 			}
 			h2 {
-				font-size: 14px;
+				font-size: 16px;
 				line-height: 1.5;
-				margin-bottom: 30px;
+				margin-bottom: 40px;
 			}
 			form {
 				width: 96%;
 			}
 			input[type=submit]{
-				margin-bottom: 30px;
+				margin-bottom: 40px;
 			}
 		}
 }

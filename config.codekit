@@ -29,6 +29,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/imgs\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 793841,
+		"inputAbbreviatedPath": "\/core\/imgs\/bg.png",
+		"outputAbbreviatedPath": "\/core\/imgs\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/core\/imgs\/device.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -77,7 +88,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 282612,
+		"initialSize": 937934,
 		"inputAbbreviatedPath": "\/core\/imgs\/screen-1.png",
 		"outputAbbreviatedPath": "\/core\/imgs\/screen-1.png",
 		"outputPathIsOutsideProject": 0,
@@ -99,7 +110,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 358335,
+		"initialSize": 474824,
 		"inputAbbreviatedPath": "\/core\/imgs\/screen-3.png",
 		"outputAbbreviatedPath": "\/core\/imgs\/screen-3.png",
 		"outputPathIsOutsideProject": 0,
@@ -283,38 +294,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/core\/scss\/pages\/_signup.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/scss\/pages\/_signup.scss",
-		"outputAbbreviatedPath": "\/core\/css\/_signup.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/core\/scss\/pages\/_thanks.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/scss\/pages\/_thanks.scss",
-		"outputAbbreviatedPath": "\/core\/css\/_thanks.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/core\/scss\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -331,31 +310,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 896,
-		"inputAbbreviatedPath": "\/favicon.png",
-		"outputAbbreviatedPath": "\/favicon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/thank-you\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/thank-you\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -368,9 +327,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "welly-swift-web",
+	"displayValue": "swift",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "globe_gray"
+	"iconImageName": "compass_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
